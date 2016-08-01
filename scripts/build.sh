@@ -6,6 +6,6 @@ cd $GMP_DEPS
 
 ./configure --prefix=$BUILD
 
-#make
+make
 
-#make install
+make install

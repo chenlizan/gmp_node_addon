@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "description": "math library for c++",
   "main": "index.js",
+  "keywords": [
+    "addon",
+    "gmp",
+    "math"
+  ],
   "dependencies": {
     "bindings": "^1.2.1",
     "nan": "^2.4.0"
@@ -10,8 +15,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish" : "./scripts/prepublish.sh",
-    "build": "node-gyp rebuild"
+    "preinstall": "./scripts/preinstall.sh",
+    "install": "node-gyp configure build"
   },
   "repository": {
     "type": "git",
@@ -19,5 +24,7 @@
   },
   "author": "",
   "license": "MIT",
-  "gypfile": true
+  "engines": {
+    "node": ">=0.8"
+  }
 }
