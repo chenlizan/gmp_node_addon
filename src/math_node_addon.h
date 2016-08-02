@@ -7,7 +7,7 @@
 
 #define THROW_IF_NOT(condition, text) if (!(condition)) { return Nan::ThrowError(text); }
 
-#include <math.h>
+#include <gmp.h>
 #include <nan.h>
 #include <v8.h>
 
@@ -16,7 +16,7 @@ public:
     static void Initialize(v8::Handle<v8::Object> target);
 
 private:
-    static NAN_METHOD(Sin);
+    static NAN_METHOD(Add);
 
 };
 

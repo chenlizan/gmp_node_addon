@@ -4,7 +4,7 @@
 
 cd $GMP_DEPS
 
-./configure --prefix=$BUILD
+./configure --prefix=$BUILD --enable-shared=no CFLAGS=-fPIC CXXFLAGS=-fPIC
 
 make
 

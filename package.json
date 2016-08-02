@@ -16,13 +16,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "./scripts/preinstall.sh",
-    "install": "node-gyp configure build"
+    "install": "node-gyp rebuild"
   },
   "repository": {
     "type": "git",
     "url": "git+https://git@github.com:chenlizan/math_node_addon.git"
   },
-  "author": "",
+  "author": "chenlizan",
   "license": "MIT",
   "engines": {
     "node": ">=0.8"

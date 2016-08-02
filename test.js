@@ -1,5 +1,5 @@
 var math = require('./');
 
-console.log(math.sin(90));
-console.log(math.M_PI.toString());
+console.log(math.add(2.2, 2.1));
+console.log(2.2 + 2.1);
 
