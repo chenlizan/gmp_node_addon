@@ -16,8 +16,9 @@ public:
     static void Initialize(v8::Handle<v8::Object> target);
 
 private:
-    static NAN_METHOD(Add);
-
+    static NAN_METHOD(MPF_Add);
+    static NAN_METHOD(MPF_Sub);
+    static NAN_METHOD(MPF_Mul);
 };
 
 #endif
