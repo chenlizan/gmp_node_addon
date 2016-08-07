@@ -1,10 +1,10 @@
 {
   "targets": [
     {
-      "target_name": "Math",
+      "target_name": "Gmp",
       "cflags": ['-fPIC'],
       "dependencies": ['libgmp'],
-      "sources": [ "src/math_node_addon.cc" ],
+      "sources": [ "src/gmp_node_addon.cc" ],
       "conditions": [
          ['OS=="linux"', {
             "include_dirs": [

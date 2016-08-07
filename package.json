@@ -1,5 +1,5 @@
 {
-  "name": "math_node_addon",
+  "name": "gmp_node_addon",
   "version": "0.1.0",
   "description": "math library for c++",
   "main": "index.js",

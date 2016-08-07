@@ -4,4 +4,4 @@
 
 'use strict';
 
-module.exports = require('bindings')('Math.node');
+module.exports = require('bindings')('Gmp.node');
