@@ -70,7 +70,7 @@ NAN_METHOD(Gmp_Node::MPF_Div) {
     mpf_init(sum);
     mpf_init_set_d(arg_0, 2.2);
     mpf_init_set_d(arg_1, 2.1);
-//    mpf_div(sum, arg_0, arg_1);
+    mpf_div(sum, arg_0, arg_1);
     mpf_clear(sum);
     mpf_clear(arg_0);
     mpf_clear(arg_1);
