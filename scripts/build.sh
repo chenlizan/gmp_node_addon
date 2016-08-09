@@ -4,10 +4,13 @@
 
 cd $GMP_DEPS
 
-./configure --prefix=$BUILD --enable-shared=no CFLAGS='-fPIC -m64 -static'
+#ln -s `g++ -print-file-name=libgcc.a`
+#ln -s `g++ -print-file-name=libstdc++.a`
+
+./configure --prefix=$BUILD --enable-shared=no CFLAGS='-fPIC'
 
 make
 
 make install
 
-'-static -std=gnu99 -static-libgcc -static-libstdc++ -fPIC'
+#'-pthread -lrt -static -ldl -static-libgcc -static-libstdc++ -fPIC'

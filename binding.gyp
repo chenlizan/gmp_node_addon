@@ -2,8 +2,7 @@
   "targets": [
     {
       "target_name": "Gmp",
-      "cflags": ['-fPIC','-static','-m64'],
-      "ldflags": ['-static','-lgmp'],
+      "cflags": ['-fPIC'],
       "dependencies": ['libgmp'],
       "sources": [ "src/gmp_node_addon.cc" ],
       "conditions": [
