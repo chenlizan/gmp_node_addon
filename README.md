@@ -1,4 +1,4 @@
-# math_node_addon
+# gmp_node_addon
 GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.
 
 
@@ -8,7 +8,16 @@ Installation
 $ npm install gmplib
 ```
 
-Example
+# API Reference
+
+### Methods ###
+
+* mpf_add(number, number)
+* mpf_sub(number, number)
+* mpf_mul(number, number)
+* mpf_div(number, number)
+
+Example:
 -------
 ``` javascript
 

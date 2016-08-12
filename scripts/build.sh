@@ -2,7 +2,6 @@
 
 . ./scripts/env.sh
 
-echo $PLATFORM
 
 if [ "$PLATFORM" != "SunOS" ] ; then
   if [ -e "$BUILD/lib/libgmp.la" ]; then

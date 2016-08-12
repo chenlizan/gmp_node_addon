@@ -10,6 +10,7 @@ void Gmp_Node::Initialize(v8::Handle<v8::Object> target) {
 NAN_METHOD(Gmp_Node::MPF_Add) {
     THROW_IF_NOT(info.Length() >= 2, "argument must be two");
     THROW_IF_NOT(info[0]->IsNumber(), "argument must be an number");
+    THROW_IF_NOT(info[1]->IsNumber(), "argument must be an number");
 
     mpf_t sum, arg_0, arg_1;
     mpf_init(sum);
@@ -29,6 +30,7 @@ NAN_METHOD(Gmp_Node::MPF_Add) {
 NAN_METHOD(Gmp_Node::MPF_Sub) {
     THROW_IF_NOT(info.Length() >= 2, "argument must be two");
     THROW_IF_NOT(info[0]->IsNumber(), "argument must be an number");
+    THROW_IF_NOT(info[1]->IsNumber(), "argument must be an number");
 
     mpf_t sum, arg_0, arg_1;
     mpf_init(sum);
@@ -48,6 +50,7 @@ NAN_METHOD(Gmp_Node::MPF_Sub) {
 NAN_METHOD(Gmp_Node::MPF_Mul) {
     THROW_IF_NOT(info.Length() >= 2, "argument must be two");
     THROW_IF_NOT(info[0]->IsNumber(), "argument must be an number");
+    THROW_IF_NOT(info[1]->IsNumber(), "argument must be an number");
 
     mpf_t sum, arg_0, arg_1;
     mpf_init(sum);
@@ -67,6 +70,7 @@ NAN_METHOD(Gmp_Node::MPF_Mul) {
 NAN_METHOD(Gmp_Node::MPF_Div) {
     THROW_IF_NOT(info.Length() >= 2, "argument must be two");
     THROW_IF_NOT(info[0]->IsNumber(), "argument must be an number");
+    THROW_IF_NOT(info[1]->IsNumber(), "argument must be an number");
 
     mpf_t sum, arg_0, arg_1;
     mpf_init(sum);
