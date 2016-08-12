@@ -20,7 +20,7 @@ if [ "$PLATFORM" != "SunOS" ] ; then
       exit 1
   fi
 
-  make install
+  make install > /dev/null
 fi
 
 

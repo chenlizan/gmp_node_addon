@@ -1,6 +1,6 @@
 {
   "name": "gmplib",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "math library for c",
   "main": "index.js",
   "keywords": [
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://git@github.com:chenlizan/math_node_addon.git"
+    "url": "git+https://git@github.com:chenlizan/gmp_node_addon.git"
   },
   "author": "chenlizan",
   "license": "MIT",
