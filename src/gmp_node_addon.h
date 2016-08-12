@@ -31,4 +31,4 @@ extern "C" {
     }
 }
 
-NODE_MODULE(gmp_node_addon, Init)
+NODE_MODULE(gmp_node_addon, Init);
