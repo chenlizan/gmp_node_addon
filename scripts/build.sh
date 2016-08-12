@@ -12,9 +12,9 @@ if [ "$PLATFORM" != "SunOS" ] ; then
 
   cd $GMP_DEPS
 
-  ./configure --prefix=$BUILD --disable-assembly --enable-shared=no CFLAGS="-fPIC"
+  ./configure --prefix=$BUILD --disable-assembly --enable-shared=no CFLAGS="-fPIC" > /dev/null
 
-  make
+  make > /dev/null
 
   if [ $? != 0 ] ; then
       echo "Unable to build gmp library"

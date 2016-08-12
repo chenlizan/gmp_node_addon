@@ -1,7 +1,7 @@
 {
-  "name": "gmp_node_addon",
+  "name": "gmplib",
   "version": "0.1.0",
-  "description": "math library for c++",
+  "description": "math library for c",
   "main": "index.js",
   "keywords": [
     "addon",
