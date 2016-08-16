@@ -20,6 +20,10 @@ private:
     static NAN_METHOD(MPF_Sub);
     static NAN_METHOD(MPF_Mul);
     static NAN_METHOD(MPF_Div);
+    static NAN_METHOD(MPF_Sqrt);
+    static NAN_METHOD(MPF_Pow_ui);
+    static NAN_METHOD(MPF_Neg);
+    static NAN_METHOD(MPF_Abs);
 };
 
 #endif
