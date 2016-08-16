@@ -16,6 +16,10 @@ $ npm install gmplib
 * mpf_sub(number, number)
 * mpf_mul(number, number)
 * mpf_div(number, number)
+* mpf_sqrt(number);
+* mpf_pow_ui(number,number);
+* mpf_neg(number);
+* mpf_abs(number);
 
 Example:
 -------
@@ -27,5 +31,9 @@ gmplib.mpf_add(2.2, 2.1);
 gmplib.mpf_sub(2.2, 2.1);
 gmplib.mpf_mul(2.2, 2.1);
 gmplib.mpf_div(2.2, 2.1);
+gmplib.mpf_sqrt(9);
+gmplib.mpf_pow_ui(2, 3);
+gmplib.mpf_neg(4.5);
+gmplib.mpf_abs(-4.5);
 
 ```
