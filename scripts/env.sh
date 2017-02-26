@@ -3,7 +3,7 @@
 ROOT=`pwd`
 DEPS=$ROOT/deps
 BUILD=$ROOT/src/gmp
-GMP_VERSION=6.1.1
+GMP_VERSION=6.1.2
 GMP=gmp-$GMP_VERSION
 GMP_DEPS=$DEPS/gmp
 GMP_FILE=/tmp/$GMP.tar.bz2
