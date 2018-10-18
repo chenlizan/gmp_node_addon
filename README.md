@@ -3,9 +3,7 @@ GMP is a free library for arbitrary precision arithmetic, operating on signed in
 
 Installation
 ------------
-``` bash
-$ npm install gmplib
-```
+[![NPM](https://nodei.co/npm/gmplib.png)](https://nodei.co/npm/gmplib/)
 
 # API Reference
 
