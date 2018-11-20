@@ -11,7 +11,7 @@ if [ "$PLATFORM" != "SunOS" ] ; then
 
   cd $GMP_DEPS
 
-  ./configure --prefix=$BUILD --disable-assembly --disable-shared=no CFLAGS="-fPIC"
+  ./configure --prefix=$BUILD --disable-assembly --disable-shared CFLAGS="-fPIC"
 
   make
 
